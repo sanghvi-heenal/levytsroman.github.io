@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: React & Redux, Node, Python, Java, Mongodb, Mysql, Informatica, Bash, Groovy, Docker, Git, Jenkins, Cloud Foundary, AWS, MS Access
+percentage: 95, 85, 70, 70, 85, 70, 80, 60, 80, 70, 85, 80, 50, 20, 20

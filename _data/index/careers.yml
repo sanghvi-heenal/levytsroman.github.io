@@ -1,0 +1,58 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Infosys Limited
+    i18n: company_a
+  desc:
+    detail: Full stack development to make rules-engine based templates in react and handle Rest services in Spring Boot
+    i18n: company_a_desc
+  date:
+    detail: January 2020 - Till Date
+    i18n: company_a_date
+  job:
+    detail: Technology Analyst
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: University of Southern Mississippi
+    i18n: company_b
+  desc:
+    detail: Developing a Website for Mississippi Science and Education Fair.
+    i18n: company_b_desc
+  date:
+    detail: August 2018 - May 2019
+    i18n: company_b_date
+  job:
+    detail: Graduate Assistant
+    i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
+    detail: University of Southern Mississippi
+    i18n: company_c
+  desc:
+    detail: Teaching 101 Introduction to Computing, introducing DNS, SQL and Microsoft services
+    i18n: company_c_desc
+  date:
+    detail: Auguest 2017 - April 2018
+    i18n: company_c_date
+  job:
+    detail: Graduate Assistant
+    i18n: company_c_job
+  icon: fa-plus-square
+
+- name:
+    detail: DXC Technologies
+    i18n: company_d
+  desc:
+    detail: BI system administrator for Informatica and Hyperion
+    i18n: company_d_desc
+  date:
+    detail: August 2015 - August 2017
+    i18n: company_d_date
+  job:
+    detail: Associate Professional Programmer Analyst
+    i18n: company_d_job
+  icon: fa-plus-square

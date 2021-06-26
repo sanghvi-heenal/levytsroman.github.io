@@ -1,38 +1,70 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Website settings
+title: Heenal sanghvi
+description: Heenal's space.
+keywords: sanghvi-heenal, heenal sanghvi,Jekyll,github,gh-pages
+baseurl: / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: https://sanghvi-heenal.github.io # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
-title: Roman Levytskyy
-email: "r.levyts@gmail.com"
-description: >
-  Ambitious and eager full stack web developer, looking to share my programming journey, as well as keep an organized list of projects in one place.
-about_me: >
-  I'm a recent DevBootcamp graduate going into programming from a mathematical background. I got into programming because I love making things, but in most cases that requires tools and a workshop. Now I can work anytime, anywhere with all the latest tools readily available at my fingertips.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://levytsroman.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-linked_in_link: "https://www.linkedin.com/in/levytsroman"
-github_link: "https://www.github.com/levytsroman"
-twitter_username: ""
-google_analytics_id: 'UA-117297510-1'
-select_options: clear-filters HTML5 CSS3 SCSS javaScript jQuery materialize charts.js React jekyll Ruby-on-Rails Sinatra front-end back-end finished current
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: Heenal Sanghvi  # Be used at blog posts' author.
+  first_name: Heenal    # Be used at index page about me section.
+  last_name: Sanghvi # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  github_username: sanghvi-heenal  # Leave blank if you don't have now
+  linkedin_id: heenal-sanghvi-8261b157 # Leave blank if you don't have now
+  facebook_username:   # Leave blank if you don't have now
+  twitter_username:   # Leave blank if you don't have now
+  email: sanghvi.heenal@gmail.com  # Leave blank if you don't have now
+  cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: icon-apache
+    - name: fa-linux
+  skill_icon2:
+    - name: fa-linux
+    - name: icon-apache
+  desc: UI, Python Developer, Technology Analyst, System Administrator # Describe yourself.
+
+# comment
+#disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+ # name: jalpc
+
+# analytics
+## google analytics
+#ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.#
+  #id: UA-93473370-3
+
+## google optimize
+#go:
+  # id:
+
+## growingIO
+#gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
+
+## donation
+#donation: off  # type 'on'/'off' to choice display donation button at post page or not
+
+## carousels
+index_carousel: on  # index page carousel switch
+blog_carousel: off  # blog page carousel switch
+
+# scss
 sass:
-  sass_dir: assets/css/main.css
-  style: :nested
+  style: compressed
 
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
