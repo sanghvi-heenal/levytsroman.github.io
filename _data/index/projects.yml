@@ -1,22 +1,23 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+- name: Mississippi Science & Education Fair
+  i18n: hs
+  gh_user: sanghvi-heenal
+  repo:  website_for_sciencefair
+  img: /static/assets/img/landing/react.png
+  desc: A science fair judging website for school fairs. developed in React, Redux and Express
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+- name: Product and Customers
+  i18n: hs
+  gh_user: sanghvi-heenal
+  repo: Products_and_Customers
+  img: /static/assets/img/landing/redux.png
+  desc: a redux based project to show product stock update in real time
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+- name: NoSql Database Comparisons
+  i18n: hs
+  gh_user: sanghvi-heenal
+  img: /static/assets/img/landing/nosql.png
+  desc: Performance comparison between Cassandra and MongoDB for specific transactions over a data warehouse.
+

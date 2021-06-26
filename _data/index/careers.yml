@@ -4,7 +4,7 @@
     detail: Infosys Limited
     i18n: company_a
   desc:
-    detail: Full stack development to make rules-engine based templates in react and handle Rest services in Spring Boot
+    detail: Working as Full Stack Developer to create rules-engine based UI templates in react and handle Rest services in Spring Boot
     i18n: company_a_desc
   date:
     detail: January 2020 - Till Date
@@ -19,7 +19,7 @@
     detail: University of Southern Mississippi
     i18n: company_b
   desc:
-    detail: Developing a Website for Mississippi Science and Education Fair.
+    detail: Developed a Website for Mississippi Science and Education Fair
     i18n: company_b_desc
   date:
     detail: August 2018 - May 2019
@@ -33,7 +33,7 @@
     detail: University of Southern Mississippi
     i18n: company_c
   desc:
-    detail: Teaching 101 Introduction to Computing, introducing DNS, SQL and Microsoft services
+    detail: Taught 101 Introduction to Computing which includes teaching about DNS,Websites, SQL and Microsoft services
     i18n: company_c_desc
   date:
     detail: Auguest 2017 - April 2018
@@ -47,7 +47,7 @@
     detail: DXC Technologies
     i18n: company_d
   desc:
-    detail: BI system administrator for Informatica and Hyperion
+    detail: BI system administrator for Informatica and Hyperion ETL tools
     i18n: company_d_desc
   date:
     detail: August 2015 - August 2017
