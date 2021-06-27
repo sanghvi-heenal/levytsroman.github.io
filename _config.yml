@@ -14,7 +14,7 @@ author:  # change following line to your infomation.
   name: Heenal Sanghvi  # Be used at blog posts' author.
   first_name: Heenal    # Be used at index page about me section.
   last_name: Sanghvi # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/avatar1.jpg  # upload your avatar at directory and edit it.
   github_username: sanghvi-heenal  # Leave blank if you don't have now
   linkedin_id: heenal-sanghvi-8261b157 # Leave blank if you don't have now
   facebook_username:   # Leave blank if you don't have now
